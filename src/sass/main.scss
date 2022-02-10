@@ -1,7 +1,15 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+.container {
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+.movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.movie-poster {
+  width: 100%;
+}
